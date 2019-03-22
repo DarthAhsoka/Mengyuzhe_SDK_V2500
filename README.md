@@ -64,7 +64,7 @@ https://www.kancloud.cn/mengyuzhe-supports/myz-v2500-sdk
 ```
 //  电机震动组合例子
 typedef unsigned char  BYTE;
-BYTE pos = 0x01 | 0x02 | 0x08； // 1号电机，2号电机，4号电机 同时震动
+BYTE pos = 0x01 | 0x02 | 0x08; // 1号电机，2号电机，4号电机 同时震动
 int n = SendToDevice_USB(pos, 10); // 震动10秒
 if( n > 0)
 {
