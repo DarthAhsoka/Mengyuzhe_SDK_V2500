@@ -56,7 +56,7 @@ https://www.kancloud.cn/mengyuzhe-supports/myz-v2500-sdk
 | Pos| unsigned char| 电机编号  | 是 |
 | DurationTime| int| 持续时间，单位：秒  |  是 |
 
->梦语者V2.5势能舱震动电机编号为：0x01,0x02,0x04,0x08,0x16,0x32,0x64 共7组
+>梦语者V2.5势能舱震动电机编号为：1,2,4,8,16,32,64 共7组
 
 ## 震动组合
 梦语者V2.5势能舱支持多电机震动，只需要将震动电机的编号进行**按位与运算**即可。
